@@ -1,5 +1,45 @@
-*, *::before,*::after{
+*,
+*::before,
+*::after {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body {
+    background: url(https://ismaaeel-a.github.io/allimages/Images/landing-bakery.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    font-family: JetBrains Mono;
+}
+
+.nav {
+    background-color: brown;
+    display: flex;
+    border-bottom: 3px solid black;
+}
+
+img {
+    background-color: rgba(0, 0, 0, 0.627);
+    height: 10vh;
+    aspect-ratio: 1/1;
+
+
+}
+
+.navLinks {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 10vh;
+    background-color: #F6CED8;
+
+    &>a {
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+    }
 }
